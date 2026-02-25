@@ -1,0 +1,110 @@
+State_Name,Crop_Type,rainfall,temperature
+andaman and nicobar islands,kharif,1925.68,27.0
+andaman and nicobar islands,rabi,865.9399999999999,26.6
+andaman and nicobar islands,whole year,3322.0599999999995,27.036363636363635
+andhra pradesh,kharif,654.34,29.26666666666667
+andhra pradesh,rabi,288.3,25.46
+andhra pradesh,whole year,1037.32,28.081818181818186
+arunachal pradesh,kharif,1712.66,11.2
+assam,kharif,1543.76,27.333333333333325
+assam,rabi,127.68,20.8
+assam,summer,497.88,25.03333333333333
+assam,whole year,2169.32,23.73636363636364
+bihar,kharif,840.46,33.583333333333336
+bihar,rabi,87.19999999999999,23.106
+bihar,summer,98.98000000000002,34.92333333333334
+bihar,whole year,1026.64,29.18636363636364
+chandigarh,kharif,80.926,28.699999999999996
+chandigarh,rabi,9.627044,16.82
+chandigarh,whole year,35.214,22.709090909090907
+chhattisgarh,kharif,1151.02,28.033333333333328
+chhattisgarh,rabi,94.02,22.380000000000003
+chhattisgarh,whole year,1299.2599999999998,26.518181818181816
+dadra and nagar haveli,kharif,168.257,28.223333333333333
+dadra and nagar haveli,rabi,5.274,27.016
+goa,kharif,2879.86,27.31666666666666
+goa,rabi,141.45999999999995,28.474
+goa,whole year,3041.4,28.657272727272723
+gujarat,kharif,790.98,30.616666666666667
+gujarat,rabi,15.34,27.276000000000003
+gujarat,summer,3.94,33.76333333333333
+gujarat,whole year,810.2600000000001,29.95636363636364
+haryana,kharif,331.88,35.346666666666664
+haryana,rabi,41.3,21.704
+haryana,whole year,421.14,28.507272727272724
+himachal pradesh,kharif,664.9399999999999,22.03333333333333
+himachal pradesh,rabi,240.1,10.38
+himachal pradesh,whole year,1098.2599999999998,15.500000000000004
+jammu and kashmir,kharif,516.6800000000001,27.866666666666664
+jammu and kashmir,rabi,293.36,14.7
+jammu and kashmir,whole year,1089.6,20.709090909090907
+jharkhand,kharif,976.06,25.666666666666668
+jharkhand,rabi,122.42,18.58
+jharkhand,whole year,1186.2800000000002,22.92727272727273
+karnataka,kharif,1246.715,22.6
+karnataka,rabi,199.2125,21.3
+karnataka,summer,157.31,25.83333333333333
+karnataka,whole year,1603.2375000000002,22.89090909090909
+kerala,kharif,1997.12,27.0
+kerala,rabi,490.74,27.599999999999998
+kerala,summer,330.0,29.33333333333333
+kerala,whole year,2817.86,27.90909090909091
+madhya pradesh,kharif,1011.49,30.43
+madhya pradesh,rabi,73.47,23.562
+madhya pradesh,whole year,1111.68,28.648181818181822
+maharashtra,kharif,607.48,26.366666666666664
+maharashtra,rabi,70.11,25.6
+maharashtra,summer,37.09,27.96666666666667
+maharashtra,whole year,714.6799999999998,26.454545454545453
+manipur,kharif,702.459,27.23333333333333
+manipur,rabi,40.023,23.14
+manipur,summer,143.023456,29.6
+manipur,whole year,1350.025,26.018181818181823
+meghalaya,kharif,423.745,22.070000000000004
+meghalaya,rabi,56.236,15.852
+meghalaya,summer,110.023,20.363333333333333
+meghalaya,whole year,1050.245,18.778181818181817
+mizoram,kharif,235.4251,26.646666666666665
+mizoram,rabi,85.24316,21.482
+mizoram,whole year,742.0124,24.59818181818182
+nagaland,kharif,207.55,26.433333333333334
+nagaland,rabi,70.598,18.92
+nagaland,whole year,700.241,22.19090909090909
+odisha,kharif,1145.2199999999998,28.5
+odisha,rabi,167.38,23.56
+odisha,summer,113.7,30.266666666666662
+odisha,whole year,1426.2999999999995,26.73636363636363
+puducherry,kharif,162.72,29.400000000000002
+puducherry,rabi,10.265748,25.76
+puducherry,summer,3.274569,29.0
+puducherry,whole year,550.1245,27.63636363636364
+punjab,kharif,411.52,34.73
+punjab,rabi,66.52,20.312
+punjab,whole year,535.78,27.227272727272727
+rajasthan,kharif,510.05,33.37333333333333
+rajasthan,rabi,19.380000000000003,22.766
+rajasthan,whole year,556.2,28.545454545454536
+sikkim,kharif,1875.6,20.1
+sikkim,rabi,140.52,12.5
+sikkim,whole year,2459.64,15.61818181818182
+tamil nadu,kharif,297.66,29.566666666666663
+tamil nadu,rabi,446.14,25.44
+tamil nadu,whole year,884.5,27.65454545454546
+telangana,kharif,770.44,28.68
+telangana,rabi,98.94,25.574
+telangana,whole year,942.8,28.994545454545456
+tripura,kharif,1220.22,27.266666666666666
+tripura,rabi,145.76000000000002,21.66
+tripura,whole year,1778.88,24.60909090909092
+uttar pradesh,kharif,579.75,34.01
+uttar pradesh,rabi,75.32000000000001,22.676
+uttar pradesh,summer,34.81,34.666666666666664
+uttar pradesh,whole year,689.88,29.03727272727273
+uttarakhand,kharif,1110.78,25.666666666666668
+uttarakhand,rabi,169.82000000000002,14.599999999999998
+uttarakhand,summer,131.18,23.133333333333336
+uttarakhand,whole year,1411.78,19.94545454545454
+west bengal,kharif,1166.9399999999998,28.33333333333333
+west bengal,rabi,152.54000000000002,22.28
+west bengal,summer,182.5,29.2
+west bengal,whole year,1501.98,25.818181818181824
