@@ -13,12 +13,23 @@ Khet-Gyan is an end-to-end AI farm assistant designed to bridge the "Data Black 
 
 ---
 
+## 🛠️ Tech Stack
+
+* **Orchestration:** LangChain, LangGraph (Agentic Workflows)
+* **Machine Learning:** Scikit-Learn (Random Forest Ensembles), Pandas, NumPy
+* **Vector Database:** Pinecone (Metadata Filtering)
+* **LLMs & Embeddings:** Google Gemini, Sentence-Transformers (MiniLM-L6-v2)
+* **Real-time APIs:** Tavily Search (Govt. Schemes), Live Mandi API (Pricing)
+* **Frontend:** Streamlit
+
+---
+
 ## ✨ Key Features & Architecture
 
 ### 1. Agentic Agri-Advisor (RAG Pipeline)
 A 24/7 conversational interface that simplifies complex agricultural protocols.
 * **Architecture:** LangGraph workflow routing through Brain (Analyzer), Expansion (Multi-Query), Search (Vector Retrieval), and Synthesis (Mentor) nodes.
-* **Technology:** Uses Pinecone for metadata filtering, MiniLM embeddings for semantic search, and a Citation Engine that maps responses to verified sources like Vikaspedia.
+* **Technology:** Uses Pinecone for metadata filtering and a Citation Engine that maps responses to verified sources like Vikaspedia.
 
 ### 2. Intelligent Crop & Yield Prediction
 * **Crop Recommendation ML Node:** A high-speed Random Forest ensemble (300 decision trees) processing an 8-D feature vector (NPK, pH, Climate, Location) to recommend top seasonal and annual crops.
@@ -30,7 +41,7 @@ A 24/7 conversational interface that simplifies complex agricultural protocols.
 
 ### 4. Business Intelligence & Policy Research
 * **Financial Foresight:** Calculates profitability by weighing predicted yield against fertilizer investment, benchmarked against live Mandi prices and MSP (Minimum Support Price).
-* **Autonomous Subsidy Discovery:** Leverages the Tavily Search API to bypass static AI data, actively scanning authorized `.gov.in` domains to surface 2026 government incentives, equipment loans, and seed subsidies.
+* **Autonomous Subsidy Discovery:** Leverages the Tavily Search API to bypass static AI data, actively scanning authorized `.gov.in` domains to surface 2026 government incentives.
 
 ---
 
@@ -42,9 +53,33 @@ A 24/7 conversational interface that simplifies complex agricultural protocols.
 * `price_cal.py`: Mandi API and financial forecasting
 * `preprocess_rag.py`: Vector embedding and knowledge base setup
 * `requirements.txt`: Python dependencies
-* `/models/`: Contains serialized `.pkl` models (e.g., Random Forest)
-* `/data/`: Historical datasets and RAG text documents (`.txt`)
-* `/notebooks/`: Jupyter notebooks for EDA and model training
+* `/models/`: Contains serialized `.pkl` models
+* `/data/`: Historical datasets and RAG text documents
+
+---
+
+## 👥 Team & Contributions
+
+### **Samaira Jain**
+* **Agentic Node Logic:** Engineered the core decision-making logic for the **LangGraph nodes** (Brain, Expansion, and Synthesis) and integrated the **Tavily Search API** for real-time 2026 government subsidy discovery.
+* **Financial Foresight Engine:** Developed the **Price-Cal module** which triggers **Live Mandi API** fetches and benchmarks against **MSP (Minimum Support Price)** to determine real-time profitability and sales projections.
+* **Predictive ML Development:** Built and trained the **Crop Recommendation Engine** using a Random Forest ensemble to process 8-D soil and climate feature vectors for optimal seasonal planting.
+* **Sustainability & Climate Logic:** Designed the **Fertilizer Intelligence** module and the **Environmental Synthesis Layer** (Weather-Guard) to actively halt fertilization advice during high-risk climate extremes.
+
+### **Prasuk Jain**
+* **Workflow Architecture:** Designed the high-level **LangGraph state machine** and directed the structural flow of information between the agentic layers, memory buffers, and external tool-calling environments.
+* **Yield Specialist Node:** Engineered the **3-tier routing system** for yield forecasting, optimizing predictions for distinct biological crop groups to prevent averaging errors in high-tonnage vs. low-density crops.
+* **Knowledge Architecture:** Architected the **RAG (Retrieval-Augmented Generation) Pipeline**, integrating Pinecone for metadata filtering and MiniLM-L6-v2 for high-density semantic vector search.
+* **System Integration & Sourcing:** Managed the end-to-end data pipeline between the vector database and the LangGraph environment while curating verified scientific datasets from sources like Vikaspedia.
+
+---
+
+## 🌟 Future Scope
+
+* **Satellite Imagery Integration:** Incorporate multispectral satellite data to detect early-stage pest infestations and moisture stress before they are visible to the naked eye.
+* **Multilingual Voice Interface:** Expand the "Mentor" node to support local Indian dialects via STT (Speech-to-Text) to assist farmers with lower literacy rates.
+* **Edge IoT Integration:** Sync with on-field soil sensors to provide automated irrigation alerts directly through the LangGraph workflow.
+* **Carbon Credit Tracking:** Implement a module to help farmers calculate and monetize carbon sequestration based on sustainable tilling practices.
 
 ---
 
@@ -52,5 +87,5 @@ A 24/7 conversational interface that simplifies complex agricultural protocols.
 
 **1. Clone the repository**
 ```bash
-git clone [git clone https://github.com/KHET-GYAN/KHET-GYAN.git](git clone https://github.com/KHET-GYAN/KHET-GYAN.git)
+git clone [https://github.com/yourusername/Khet-Gyan.git](https://github.com/yourusername/Khet-Gyan.git)
 cd Khet-Gyan
