@@ -52,5 +52,5 @@ A 24/7 conversational interface that simplifies complex agricultural protocols.
 
 **1. Clone the repository**
 ```bash
-git clone [https://github.com/yourusername/Khet-Gyan.git](https://github.com/yourusername/Khet-Gyan.git)
+git clone [git clone https://github.com/KHET-GYAN/KHET-GYAN.git](git clone https://github.com/KHET-GYAN/KHET-GYAN.git)
 cd Khet-Gyan
